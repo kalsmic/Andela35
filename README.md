@@ -2,9 +2,8 @@
 This repo is to help learners easily follow along during the session.
 
 [![Build Status](https://travis-ci.com/kalsmic/Andela35.svg?branch=deploy)](https://travis-ci.com/kalsmic/Andela35)
-[![Coverage Status](https://coveralls.io/repos/github/kalsmic/Andela35/badge.svg?branch=deploy)](https://coveralls.io/github/kalsmic/Andela35?branch=deploy)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
-
+[![Coverage Status](https://coveralls.io/repos/github/kalsmic/Andela35/badge.svg?branch=deploy)](https://coveralls.io/github/kalsmic/Andela35?branch=deploy) 
+[![Maintainability](https://api.codeclimate.com/v1/badges/7ceab8c358ada3339941/maintainability)](https://codeclimate.com/github/kalsmic/Andela35/maintainability)
 
 ## GETTING STARTED
 * Clone this repo using
