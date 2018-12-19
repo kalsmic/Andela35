@@ -8,7 +8,7 @@ class DatabaseConnection:
     def __init__(self):
         try:
 
-             self.connection = psycopg2.connect(os.environ.get('DATABASE_URL'))
+            self.connection = psycopg2.connect(os.environ.get('DATABASE_URL'))
             self.connection.autocommit = True
             self.cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
 
