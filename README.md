@@ -2,7 +2,8 @@
 This repo is to help learners easily follow along during the session.
 
 [![Build Status](https://travis-ci.com/kalsmic/Andela35.svg?branch=master)](https://travis-ci.com/kalsmic/Andela35)
-[![Coverage Status](https://coveralls.io/repos/github/kalsmic/Andela35/badge.svg)](https://coveralls.io/github/kalsmic/Andela35)
+
+[![Coverage Status](https://coveralls.io/repos/github/kalsmic/Andela35/badge.svg?branch=master)](https://coveralls.io/github/kalsmic/Andela35?branch=deploy)
 
 
 ## GETTING STARTED
