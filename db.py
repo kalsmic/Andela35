@@ -6,21 +6,13 @@ import os
 # We are deploying to Heroku!!!
 class DatabaseConnection:
     def __init__(self):
-
-        if os.getenv('DB_NAME') == 'test_db':
-            self.db_name = 'test_db'
-        else:
-            self.db_name = 'learn_db'
-
         try:
-            self.connection = psycopg2.connect(
-                dbname=self.db_name, user='postgres', host='localhost', password='kengo1234', port=5432
-            )
+
+             self.connection = psycopg2.connect(os.environ.get('DATABASE_URL'))
             self.connection.autocommit = True
             self.cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
 
             print('Connected to the database successfully.')
-            print(self.db_name)
 
             create_users_table = "CREATE TABLE IF NOT EXISTS users (userId SERIAL NOT NULL PRIMARY KEY, username TEXT NOT NULL, email TEXT NOT NULL, password TEXT NOT NULL);"
 
@@ -36,7 +28,7 @@ class DatabaseConnection:
         reg_user = f"INSERT INTO users(username, email, password) VALUES('{username}', '{email}', '{password}');"
         pprint(reg_user)
         self.cursor.execute(reg_user)
-    
+
     def check_username(self, username):
         """
         Check if a username already exists. Usernames are unique
@@ -46,7 +38,7 @@ class DatabaseConnection:
         self.cursor.execute(query)
         user = self.cursor.fetchone()
         return user
-    
+
     def check_email(self, email):
         """
         Check if a email already exists. Emails are unique
