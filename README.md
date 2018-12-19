@@ -1,9 +1,9 @@
 # Andela35 TRAINING REPO
 This repo is to help learners easily follow along during the session.
 
-[![Build Status](https://travis-ci.com/kalsmic/Andela35.svg?branch=master)](https://travis-ci.com/kalsmic/Andela35)
-
-[![Coverage Status](https://coveralls.io/repos/github/kalsmic/Andela35/badge.svg?branch=master)](https://coveralls.io/github/kalsmic/Andela35?branch=deploy)
+[![Build Status](https://travis-ci.com/kalsmic/Andela35.svg?branch=deploy)](https://travis-ci.com/kalsmic/Andela35)
+[![Coverage Status](https://coveralls.io/repos/github/kalsmic/Andela35/badge.svg?branch=deploy)](https://coveralls.io/github/kalsmic/Andela35?branch=deploy)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
 
 ## GETTING STARTED
